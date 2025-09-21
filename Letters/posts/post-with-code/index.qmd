@@ -1,0 +1,45 @@
+---
+title: "Why I left"
+author: "Esprite"
+date: "2025-09-21"
+categories: [NoLookingBack]
+---
+
+```{r, echo=FALSE, message=FALSE}
+library(RandomWalker)
+library(ggplot2)
+library(ggpubr)
+
+pal <- c("#EFE4D2", "#0a5720", "#954C2E", "#131D4F")
+
+recipients <- c(52404, 131228, 791220)
+
+Away <- function(pal,recipient,date){
+  
+  set.seed(recipient)
+  
+  palette_fn <- colorRampPalette(pal)
+  palette <- palette_fn(date)
+  
+  random_poisson_walk(.dimensions =2, .num_walks = date) |> ggplot(aes(x= step_number, y= cum_sum_y, color= walk_number)) + geom_line(show.legend = FALSE) + 
+    theme_void() + 
+    scale_color_manual(values = palette)  
+    
+}
+
+messages <- lapply(recipients,Away,pal=pal,date=72)
+
+ggarrange(plotlist=messages,ncol=3)
+
+```
+
+
+
+It breaks my heart to see all you could be but you are not. To see you holding to a past that was never there. To make the wrong choice day after day. To feel there is no space left for me with all the noise your self-made problems make. So I ran away.
+
+Call it fear, call it selfishness, I call it self preservation. Because I could never truly be me if I had stayed. 
+
+And I thank god for giving me the strength lo leave, and I pray to keep the will to continue without looking back.
+
+Great things have arrived, and many more are still to come
+

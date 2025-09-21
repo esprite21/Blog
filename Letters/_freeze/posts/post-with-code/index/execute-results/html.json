@@ -1,0 +1,16 @@
+{
+  "hash": "33bffb63955769fcec77ebd741aac6f4",
+  "result": {
+    "markdown": "---\ntitle: \"Why I left\"\nauthor: \"Esprite\"\ndate: \"2025-09-21\"\ncategories: [NoLookingBack]\nimage: \"image.jpg\"\n---\n\n\nIt breaks my heart to see all you could be but you are not. To see you holding to a past that was never there. To make the wrong choice day after day. To feel there is no space left for me with all the noise your self-made problems make. So I ran away.\n\nCall it fear, call it selfishness, I call it self preservation. Because I could never truly be me if I had stayed. \n\nAnd I thank god for giving me the strength lo leave, and I pray to keep the will to continue without looking back.\n\nGreat things have arrived, and many more are still to come\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stderr}\n```\n\n== Welcome to RandomWalker ========================================================\nIf you find this package useful, please leave a star: \n   https://github.com/spsanderson/RandomWalker\n\nIf you encounter a bug or want to request an enhancement please file an issue at:\n   https://github.com/spsanderson/RandomWalker/issues\n\nThank you for using RandomWalker\n```\n:::\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
